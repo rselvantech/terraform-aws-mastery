@@ -1,0 +1,34 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+.terraform.tfstate
+terraform.tfvars
+*.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform-version
+
+# Logs
+*.log
+*.log.*
+*.log.clean
+
+# Temp/draft files
+new.md
+new-*.md
+old.md
+old-*.md
+temp.md
+demo.log*
+logs/
+*log*
